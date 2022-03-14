@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+      min-height: 100vh;
+
+      
+      background: -webkit-linear-gradient(bottom left, #rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+      background: -moz-linear-gradient(bottom left, #92dbc9 0%, rgb(0, 0, 0) 100%);
+      background: -o-linear-gradient(bottom left, #92dbc9 0%, rgb(0, 0, 0) 100%);
+      background: linear-gradient(to top right, #92dbc9 0%, rgb(0, 0, 0) 100%);
+    }
+
+    .input-form {
+      max-width: 450px;
+      
+      margin-top: 250px;
+      padding: 80px;
+
+      background: #fff;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+      box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15)
+    }
+
+    .input {
+      width: 100%;
+    }

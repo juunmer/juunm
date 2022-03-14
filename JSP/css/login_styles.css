@@ -1,0 +1,84 @@
+@charset "utf-8"; 
+
+
+/* header */
+#header {height:95px; background:#0075df; position:relative;}
+#header div.headerArea {width:1100px; height:95px; margin:0 auto; overflow:hidden;}
+#header div.headerArea h1 a.bi_sb {float:left; margin-top:30px; width:201px; height:34px; display:block; background:url(../img/bi_sb.png) no-repeat 0 0; text-indent:-10000em;}
+
+/* login */
+#container {width:794px; margin:180px auto 0;}
+div.titleBox {width:794px; height:45px; margin-bottom:25px; border-bottom:1px solid #a0a0a0;}
+div.titleBox h4 {font-size:30px; letter-spacing:-1px; font-weight:600;}
+div.loginBox {width:330px; height:310px; float:left;}
+div.loginBox input.userId {width:330px; height:55px; border:1px solid #e2e2e2; font-size:15px; padding-left:20px; box-sizing:border-box;}
+div.loginBox input.userPw {width:330px; height:55px; border:1px solid #e2e2e2; border-top:none; font-size:15px; padding-left:20px; box-sizing:border-box;}
+div.loginBox div.opt_area {width:130px; height:22px; margin-top:14px;}
+div.loginBox div.log_sav {margin-top:10px;}
+div.loginBox div.log_sav input {width:18px; height:18px; border:1px solid #e2e2e2; position:relative; top:5px;margin-right:4px;}
+div.loginBox div.log_sav label.id_save {font-size:14px; color:#b4b5c0;}
+div.loginBox button.bt_login {width:330px; height:60px; background-color:#0075df; color:#fff; font-size:19px; border:none; margin-top:25px;}
+div.loginBox div.login_opt {width:330px; height:22px; margin-top:24px; text-align:center;}
+div.loginBox div.login_opt a.bt_join {color:#8b8b8b; text-decoration:none; font-size:15px; padding-right:20px; border-right:1px solid #e2e2e2; }
+div.loginBox div.login_opt a.bt_find_id {color:#8b8b8b; text-decoration:none; font-size:15px; padding-left:20px; padding-right:20px; border-right:1px solid #e2e2e2;;}
+div.loginBox div.login_opt a.bt_find_pw {color:#8b8b8b; text-decoration:none; font-size:15px; padding-left:20px;}
+div.bannerBox {width:421px; height:287px; margin-left:15px; float:right; position:relative; overflow:hidden;}
+div.bannerBox div.slide {position:absolute; width:2105px; height:287px; top:0;}
+div.bannerBox div.slide a {width:421px; height:287px; float:left; display:block;}
+div.bannerBox div.paging {position:absolute; left:35px; bottom:40px;}
+div.bannerBox div.paging span {background-color:#b8c8d8; width:10px; height:10px; margin-right:6px; text-indent:-10000em; cursor:pointer; display:inline-block; zoom:1; *display:inline;}
+div.bannerBox div.paging span.last {margin-right:0;}
+div.bannerBox div.paging span.on {background-color:#677a93;}
+
+/* default */
+body {margin:0 !important; padding:0 !important;}
+div,dl,dt,dd,ul,ol,select,li,h1,h2,h3,h4,h5,h6,form,fieldset,p,button,figure,strong,a,label,th,td,textarea {margin:0; padding:0; font-family:'daki','malgun Gothic',dotum,sans-serif !important; font-size:14px; color:#111; font-weight:400; letter-spacing:-0.5px; line-height:130%;}
+input, select{font-size:14px; margin:0; padding:0;}
+input {*word-break:break-all; -ms-word-wrap:break-all; white-space:normal; word-break:break-all; font-family:'daki','malgun Gothic',dotum,sans-serif; color:#333;} 
+button {vertical-align:middle}
+a{cursor:pointer;}
+a,   
+a:link,   
+a:visited,
+a:hover{text-decoration:none; color:#111;}
+span{vertical-align:baseline;}
+a img,   img{border:0} 
+ul,   ol{list-style:none}
+th{text-align:left; font-weight:normal; margin:0; padding:0}
+li {line-height:100%;}
+li a {padding:0; margin:0; line-height:140%;}
+label{vertical-align:baseline;}
+table {border:0; border-spacing:0}
+fieldset{border:none; padding:0; margin:0;}
+legend{position:absolute; top:0; left:0; width:0; height:0; overflow:hidden; padding:0; visibility:hidden; font-size:0; line-height:0}
+select{cursor:pointer; font-family:tahoma;vertical-align:middle}
+radio{border:none; background-color:#FFF}
+button{width:0;	height:0; font-size:0; margin:0; padding:0; border:0; cursor:pointer}
+caption{text-indent:-5000em; width:0; height:0; margin:0; padding:0; display:none;}
+input[type="radio"],
+input[type="checkbox"]{padding:0;border:0;*height:auto;}
+input[type="file"]{padding:0}
+em{font-style:normal; display:inline-block;*display:inline;zoom:1;}
+table{width:100%;}
+
+/* webfont */
+@font-face {
+  font-family: 'daki';
+  font-style: normal;
+  font-weight: 400;
+  src:url(DakiM.eot);
+  src: url(DakiM.eot?#iefix) format('embedded-opentype'),
+       local(※), url(DakiM.woff) format('woff'),
+       url(DakiM.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'daki';
+  font-style: normal;
+  font-weight: 600;
+  src: url(DakiMTitle.eot);
+  src: url(DakiMTitle.eot?#iefix) format('embedded-opentype'),
+       local(※),url(DakiMTitle.woff) format('woff'),
+       url(DakiMTitle.ttf) format('truetype');
+}
+

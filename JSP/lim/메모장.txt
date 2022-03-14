@@ -1,0 +1,41 @@
+
+
+
+<프로젝트 - 통합 플랫폼 적용을 위한 생산공정 관리솔루션 구축> 
+팀주제1 : 공정별 에러 현황 및 제품 생산 분석 모니터링 및 상관분석 시스템 구축 
+팀주제2 : 제품별 품질 관리와 라인내 에러 정보 통합 모니터링 및 분석 시스템 구축
+팀주제3 : 에너지 효율성 모니터링 및 생산 연계분석 시스템 구축 
+팀주제4 : Argos 플랫폼을 이용한 생산 공정 관리 솔루션 구축 
+팀주제5 : 생산 LOT 추적 플랫폼 구축
+
+
+생산 : 생산관련 지표를 라인 > 공정의 TOP-DOWN 방식으로 TOTAL 모니터링 가능 
+
+품질 : 생산에 중요한 영향을 미치는 품질데이터를 실시간으로 파악 
+
+에너지 : 에너지의 흐름 및 비용으로의 환산을 통한 공장 에너지 관리
+
+
+
+-참고사이트
+http://www.gemmy.org/main 수주생산이력관리
+https://seollica.tistory.com/43 검색창
+https://www.ecount.com/kr/ecount/product/inventory_inventory-management-system 완제품 재고 관리
+
+
+
+
+!!!TABLE
+
+CREATE TABLE codelist(
+num int(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+m1 varchar(100) not null,
+m2 varchar(100),
+m3 varchar(100),
+m4 varchar(100),
+m5 varchar(100),
+title varchar(100),
+user varchar(100),
+etc varchar(100),
+regdate TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

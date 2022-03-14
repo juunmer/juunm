@@ -1,0 +1,76 @@
+@charset "utf-8"; 
+
+
+/* myinfo */
+#container {width:90%; margin:40px auto 0;}
+div.titleBox {width:100%; height:50px; margin-bottom:25px; border-bottom:1px solid #a0a0a0;}
+div.titleBox h4 {font-size:40px; letter-spacing:-1px; font-weight:600;}
+
+div.bannerBox {width:421px; height:287px; margin-left:15px; float:right; position:relative; overflow:hidden;}
+div.bannerBox div.slide {position:absolute; width:2105px; height:287px; top:0;}
+div.bannerBox div.slide a {width:421px; height:287px; float:left; display:block;}
+div.bannerBox div.paging {position:absolute; left:35px; bottom:40px;}
+div.bannerBox div.paging span {background-color:#b8c8d8; width:10px; height:10px; margin-right:6px; text-indent:-10000em; cursor:pointer; display:inline-block; zoom:1; *display:inline;}
+div.bannerBox div.paging span.last {margin-right:0;}
+div.bannerBox div.paging span.on {background-color:#677a93;}
+
+/* default */
+table.type09 {
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.5;
+
+}
+table.type09 thead th {
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  color: #369;
+  border-bottom: 3px solid #036;
+}
+table.type09 tbody th {
+  width: 400px;
+  padding: 25px;
+  font-weight: bold;
+  font-size: 18px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  background: #f3f6f7;
+}
+table.type09 td {
+  width: 70%;
+  padding: 25px;
+  font-size: 18px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+}
+
+/* info from*/
+.button1 {width:330px; height:60px; background-color:#a8a8a8; color:#fff; font-size:19px; border:none; margin-top:25px; text-align: center;}
+.button2 {width:330px; height:60px; background-color:#000000; color:#fff; font-size:19px; border:none; margin-top:25px; text-align: center;}
+
+input {
+
+
+}
+/* webfont */
+@font-face {
+  font-family: 'daki';
+  font-style: normal;
+  font-weight: 400;
+  src:url(DakiM.eot);
+  src: url(DakiM.eot?#iefix) format('embedded-opentype'),
+       local(※), url(DakiM.woff) format('woff'),
+       url(DakiM.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'daki';
+  font-style: normal;
+  font-weight: 600;
+  src: url(DakiMTitle.eot);
+  src: url(DakiMTitle.eot?#iefix) format('embedded-opentype'),
+       local(※),url(DakiMTitle.woff) format('woff'),
+       url(DakiMTitle.ttf) format('truetype');
+}
+
