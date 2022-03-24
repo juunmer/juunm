@@ -24,8 +24,8 @@
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             
             <!-- 네비바 -->
-            <a class="navbar-brand ps-3" href="/Ezen2Team/index.jsp">
-                <img class="img-concert" src="/Ezen2Team/img/log.png" width="130"/>
+            <a class="navbar-brand ps-3" href="/JSP/index.jsp">
+                <img class="img-concert" src="/JSP/img/log.png" width="130"/>
             </a>
             
             <!-- 사이드 토글-->
@@ -54,8 +54,8 @@
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
                     <ul class="dropdown-menu dropdown-menu-end"  aria-labelledby="navbarDropdown" >
                         
-                        <li><a class="dropdown-item" href="/Ezen2Team/user/login.jsp">Login</a></li>
-                        <li><a class="dropdown-item" href="/Ezen2Team/user/signup.jsp">Join</a></li>
+                        <li><a class="dropdown-item" href="/JSP/user/login.jsp">Login</a></li>
+                        <li><a class="dropdown-item" href="/JSP/user/signup.jsp">Join</a></li>
                         <li><hr class="dropdown-divider" /></li>
                         
                         <li><a class="dropdown-item" href="setting.jsp">Settings</a></li>
@@ -82,8 +82,8 @@
                 <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
                 <ul class="dropdown-menu dropdown-menu-end"  aria-labelledby="navbarDropdown" >
                     
-                    <li><a class="dropdown-item" href="/Ezen2Team/user/logout.jsp">Logout</a></li>
-                    <li><a class="dropdown-item" href="/Ezen2Team/user/myinfo.jsp">Info</a></li>
+                    <li><a class="dropdown-item" href="/JSP/user/logout.jsp">Logout</a></li>
+                    <li><a class="dropdown-item" href="/JSP/user/myinfo.jsp">Info</a></li>
                     <li><hr class="dropdown-divider" /></li>
                     
                     <li><a class="dropdown-item" href="#!">Manage</a></li>
@@ -109,8 +109,8 @@
             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
             <ul class="dropdown-menu dropdown-menu-end"  aria-labelledby="navbarDropdown" >
                 
-                <li><a class="dropdown-item" href="/Ezen2Team/user/logout.jsp">Logout</a></li>
-                <li><a class="dropdown-item" href="/Ezen2Team/user/info_pw.jsp">Info</a></li>
+                <li><a class="dropdown-item" href="/JSP/user/logout.jsp">Logout</a></li>
+                <li><a class="dropdown-item" href="/JSP/user/info_pw.jsp">Info</a></li>
                 <li><hr class="dropdown-divider" /></li>
                 
                 <li><a class="dropdown-item" href="setting.jsp">Settings</a></li>
@@ -140,8 +140,8 @@
 
                             <div class="collapse" id="business_management" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="/Ezen2Team/company/com_list.jsp">거래처 정보</a>
-                                    <a class="nav-link" href="/Ezen2Team/user_info.jsp">사용자 관리</a>
+                                    <a class="nav-link" href="/JSP/company/com_list.jsp">거래처 정보</a>
+                                    <a class="nav-link" href="/JSP/user_info.jsp">사용자 관리</a>
                                 </nav>
                             </div>
                             
@@ -154,9 +154,9 @@
                             
                             <div class="collapse" id="product_management" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="/Ezen2Team/product/p_stock.jsp">상품 재고,BOM관리</a>
-                                    <a class="nav-link" href="/Ezen2Team/product/p_into.jsp">상품 입고내역</a>
-                                    <a class="nav-link" href="/Ezen2Team/product/p_out.jsp">상품 출고내역</a>
+                                    <a class="nav-link" href="/JSP/product/p_stock.jsp">상품 재고,BOM관리</a>
+                                    <a class="nav-link" href="/JSP/product/p_into.jsp">상품 입고내역</a>
+                                    <a class="nav-link" href="/JSP/product/p_out.jsp">상품 출고내역</a>
                                 </nav>
                             </div>
 
@@ -168,10 +168,10 @@
                             </a>
                             <div class="collapse" id="materials_management" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="/Ezen2Team/materials/m_stock.jsp">자재 재고관리</a>
+                                    <a class="nav-link" href="/JSP/materials/m_stock.jsp">자재 재고관리</a>
                                     <a class="nav-link" href="#">자재 재고실사(보류)</a>
-                                    <a class="nav-link" href="/Ezen2Team/materials/m_into.jsp">자재 입고내역</a>
-                                    <a class="nav-link" href="/Ezen2Team/materials/m_out.jsp">자재 출고내역</a>
+                                    <a class="nav-link" href="/JSP/materials/m_into.jsp">자재 입고내역</a>
+                                    <a class="nav-link" href="/JSP/materials/m_out.jsp">자재 출고내역</a>
                                     <a class="nav-link" href="#">자재요청(보류)</a>
                                 </nav>
                             </div>
@@ -186,7 +186,7 @@
                             <div class="collapse" id="Settings_management" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="#">작업지시관리</a>
-                                    <a class="nav-link" href="/Ezen2Team/board/list.jsp">작업일지</a>
+                                    <a class="nav-link" href="/JSP/board/list.jsp">작업일지</a>
 
                                 </nav>
                             </div>
@@ -225,8 +225,8 @@
                             </a>
                             <div class="collapse" id="Electric_management" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="/Ezen2Team/data/use_electric.jsp">모니터링</a>
-                                    <a class="nav-link" href="/Ezen2Team/data/elc_eq_day.jsp">전력사용량(상세)</a>
+                                    <a class="nav-link" href="/JSP/data/use_electric.jsp">모니터링</a>
+                                    <a class="nav-link" href="/JSP/data/elc_eq_day.jsp">전력사용량(상세)</a>
 
                                 </nav>
                             </div>

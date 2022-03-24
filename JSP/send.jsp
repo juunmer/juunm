@@ -41,7 +41,7 @@ ResultSet resultSet = null;
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- 내비바 -->
-            <a class="navbar-brand ps-3" href="index.html">Ezen2Team</a>
+            <a class="navbar-brand ps-3" href="index.html">JSP</a>
             <!-- 사이드 토글-->
             <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
             <!--서치바-->

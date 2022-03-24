@@ -89,7 +89,7 @@
             <button type="button" class="btn-dark" onclick="location.href='s_password.jsp';">비밀번호변경</button>
 
                 <h3 class="#!">기본정보변경</h3>
-                <form name="disact" action="../Ezen2Team/signup_account.jsp" method="post">
+                <form name="disact" action="../JSP/signup_account.jsp" method="post">
                 <div class="row">
 
                     <div class="form-group">

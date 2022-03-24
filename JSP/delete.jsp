@@ -86,7 +86,7 @@
                 <li class="breadcrumb-item active">회원탈퇴</li>
             </ol>
                 <h4 class="#!">회원탈퇴</h4>
-                <form name="disact" action="../Ezen2Team/signup_account.jsp" method="post">
+                <form name="disact" action="../JSP/signup_account.jsp" method="post">
                 <div class="row">
 
                     <div class="form-group">
