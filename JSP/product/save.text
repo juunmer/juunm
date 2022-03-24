@@ -1,0 +1,77 @@
+<%
+		// 현재 페이지를 받아옴 
+		int startPage = 0; // limit의 시작값 -> 첫 limit 0,10
+		int onePageCnt=5; // 한페이지에 출력할 행의 갯수
+
+	String tempStart = request.getParameter("page");
+
+	if(tempStart != null){ // 처음에는 실행되지 않는다.
+			startPage = (Integer.parseInt(tempStart)-1)*onePageCnt;
+		}
+
+
+try{
+connection = DriverManager.getConnection(connectionUrl+database, userid, password);
+statement=connection.createStatement();
+String sql ="select * from orderlist";
+String sql2 = "select count(*) as counter from orderlist";
+PreparedStatement pstmt=connection.prepareStatement(sql2);
+ResultSet rs = pstmt.executeQuery();
+rs.next();
+int res = rs.getInt("counter");
+int count = rs.getInt("counter");
+
+
+rs.close();
+count = (int)Math.ceil((double)count/(double)onePageCnt);
+		// 페이지 수 저장
+
+sql2 = sql + " ORDER  by regdate desc LIMIT " + onePageCnt + " OFFSET " + startPage;
+
+pstmt=connection.prepareStatement(sql2);
+ResultSet rs2 = pstmt.executeQuery();
+rs2 = pstmt.executeQuery();
+%>
+<div style = "width:100%; overflow:auto"> 			
+<table class="table" style ="width:100%">
+<thead>
+<tr>
+<th>상품코드</th>
+<th>상품명</th>
+<th>수량</th>
+</tr>
+</thead>
+<%
+while(rs2.next()){
+%> 
+<tbody>
+<tr>
+<td><button class="btn btn-link" value=<%=rs2.getString("item_code") %>,<%=rs2.getString("item") %>,<%=rs2.getString("EA") %> onclick = "setitem_code(this.value);return false;"><%=rs2.getString("item_code")%></button></td>
+<td><button class="btn btn-link" value=<%=rs2.getString("item_code") %>,<%=rs2.getString("item") %>,<%=rs2.getString("EA") %> onclick = "setitem_code(this.value);return false;"><%=rs2.getString("item") %></button></td>
+<td><%=rs2.getString("EA") %></td>
+</tr>
+<%}%>
+</tbody>
+</table>
+</div>
+    </div>        
+	                                
+<% for(int i=1; i<=count; i++){ %>
+	<a href="../product/p_out_order.jsp?page=<%=i%>">[<%=i%>]
+	</a> 
+	<% };%>
+    <b>조회 결과 : <%=res%> 개</b> &emsp;	<%
+
+    try{
+        pstmt.close();
+              connection.close();
+              
+        } catch(Exception e){
+              e.printStackTrace();
+        }
+
+   } catch(Exception e){
+              e.printStackTrace();
+              
+          }
+%> 

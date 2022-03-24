@@ -11751,25 +11751,25 @@ ul.tab li{
   padding: 10px 15px;
   cursor: pointer;
 }
-
 ul.tab li.active{
   background: #ededed;
   color: #222;
 }
-
 .tabContent {
   display: none;
 }
-
 .tabContents {
   display: none;
   background: #ededed;
   padding: 15px;
 }
-
 .active {
   display: block;
 }
+
+
+
+
 
 ul.subtab{
   margin: 0px;
@@ -11789,4 +11789,35 @@ ul.subtab li.active{
   background: #ededed;
   color: #222;
 }
+
+table.inputTable{
+  caption-side: bottom;
+  border-collapse: collapse; 
+}
+.inputTable input{
+  width: 120px;
+}
+.inputTable th,td{
+  border-bottom: 2px solid #444444;
+  padding: 10px;
+}
+
+.btns{
+	margin-right: 5px;
+	text-align: center;
+	border: 1px solid white;
+	transition: all 0.15s;
+	background-color: #6aafe6;
+	padding: 5px 8px;
+	color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btns:hover{
+	background-color: transparent;
+	border: 1px solid gray;
+	color: black;
+}
+
 

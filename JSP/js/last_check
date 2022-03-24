@@ -1,0 +1,8 @@
+function last_in_check(){
+    if (confirm("정말 입고하시겠습니까?")== true){
+        document.form.submit();
+    }
+    else{
+        return;
+    }
+}

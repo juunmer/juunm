@@ -3,7 +3,6 @@
     <head>
         <!-- 한글깨짐 X-->
         <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
-
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -11,60 +10,22 @@
         <meta name="author" content="" />
         <title>Home</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
-        <link href="./css/styles.css" rel="stylesheet" />
+        <link href="../css/styles.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+        
+        
     </head>
     <body class="sb-nav-fixed">   
         
 
-        <jsp:include page="menu.jsp"/>
+        <jsp:include page="../menu.jsp"/>
 
             <!--상세시작-->
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
                         
-                        <ol class="breadcrumb mb-4">
-                            <li class="breadcrumb-item active"></li>
-                        </ol>
-                        <div class="row">
-                            <div class="col-xl-3 col-md-6">
-                                <div class="card bg-primary text-white mb-4">
-                                    <div class="card-body" style="text-align:center; font-weight: bold;">매입/매출</div>
-                                    <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <a class="small text-white stretched-link" href="#">View Details</a>
-                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-md-6">
-                                <div class="card bg-warning text-white mb-4">
-                                    <div class="card-body" style="text-align:center; font-weight: bold;">상품관리</div>
-                                    <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <a class="small text-white stretched-link" href="product/p_stock.jsp">View Details</a>
-                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-md-6">
-                                <div class="card bg-success text-white mb-4">
-                                    <div class="card-body" style="text-align:center; font-weight: bold;">자재관리</div>
-                                    <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <a class="small text-white stretched-link" href="materials/m_stock.jsp">View Details</a>
-                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-md-6">
-                                <div class="card bg-danger text-white mb-4">
-                                    <div class="card-body" style="text-align:center; font-weight: bold;">전력사용량</div>
-                                    <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <a class="small text-white stretched-link" href="#" >View Details</a>
-                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
 
 
                         <div class="row">
@@ -76,7 +37,7 @@
                                         판매량
                                     </div>
                                     <div class="card-body">
-                                        <canvas id="sell_p" width="300" height="116"></canvas>
+                                        <canvas id="test" width="300" height="116"></canvas>
                                     </div>
                                 </div>
                             </div>
@@ -123,7 +84,7 @@
                             <div class="col-xl-6" style="width : 100%;">
                                 <div class="card mb-4">
                                     <div class="card-header">
-                                        <i class="fas fa-table me-1"></i>
+                                        <i class="fas fa-chart-area me-1"></i>
                                         작업지시
                                     </div>
                                     <div class="card-body">
@@ -154,9 +115,8 @@
         <!--실시간차트-->
         <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2"></script>
         <script src="https://cdn.jsdelivr.net/npm/luxon@1.27.0"></script>
-        <script src="js/scripts.js"></script>
-        <script src="js/calendar.js"></script>
-        <script src="data/js/sell_p.js"></script>
+        <script src="js/test.js"></script>
+        <script src="js/pd_total_monitoring.js"></script>
         
     </body>
 </html>

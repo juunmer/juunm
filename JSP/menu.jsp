@@ -176,20 +176,7 @@
                                 </nav>
                             </div>
 
-                            <!------------제품별 품질관리------------>                                              
-                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#product_pfl" aria-expanded="false" aria-controls="product_pfl">
-                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                제품별 품질관리
-                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                            </a>
-                            <div class="collapse" id="product_pfl" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
-                                <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="#">제품별 생산관리</a>
-                                    <a class="nav-link" href="#">공정별 생산관리</a>
-                                    <a class="nav-link" href="./linemanager/line.jsp">라인별 생산관리</a>
-                                </nav>
-                            </div>
-                            
+
                             <!------------생산관리------------>
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#Settings_management" aria-expanded="false" aria-controls="Settings_management">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
@@ -199,7 +186,7 @@
                             <div class="collapse" id="Settings_management" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="#">작업지시관리</a>
-                                    <a class="nav-link" href="#">작업일지</a>
+                                    <a class="nav-link" href="/Ezen2Team/board/list.jsp">작업일지</a>
 
                                 </nav>
                             </div>
@@ -218,11 +205,6 @@
                                 </nav>
                             </div>
 
-                            
-
-
-
-
                             <div class="sb-sidenav-menu-heading">Monitering</div>
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#Line_management" aria-expanded="false" aria-controls="Settings_management">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
@@ -231,8 +213,8 @@
                             </a>
                             <div class="collapse" id="Line_management" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="#">생산량</a>
-                                    <a class="nav-link" href="/Ezen2Team/onoff.jsp">라인별 모니터링</a>
+                                    <a class="nav-link" href="pdmonitoring/pd_total_monitoring.jsp">생산량</a>
+                                    <a class="nav-link" href="">라인별 모니터링</a>
 
                                 </nav>
                             </div>
@@ -244,7 +226,7 @@
                             <div class="collapse" id="Electric_management" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="/Ezen2Team/data/use_electric.jsp">모니터링</a>
-                                    <a class="nav-link" href="/Ezen2Team/data/elc_eq.jsp">전력사용량(상세)</a>
+                                    <a class="nav-link" href="/Ezen2Team/data/elc_eq_day.jsp">전력사용량(상세)</a>
 
                                 </nav>
                             </div>
